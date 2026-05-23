@@ -4,7 +4,7 @@
 
 ---
 
-## 🚀 Hackathon Demo Quick Start
+## Demo Quick Start
 
 ### 1. Backend Setup
 1. Open a terminal in `backend/`.
