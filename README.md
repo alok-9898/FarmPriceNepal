@@ -10,10 +10,10 @@ FarmPriceNepal operates on a modern, decoupled three-tier architecture comprisin
 
 ```mermaid
 graph TD
-    classDef client fill:#e1f5fe,stroke:#01579b,stroke-width:2px;
-    classDef server fill:#efebe9,stroke:#3e2723,stroke-width:2px;
-    classDef db fill:#e8f5e9,stroke:#1b5e20,stroke-width:2px;
-    classDef ml fill:#f3e5f5,stroke:#4a148c,stroke-width:2px;
+    classDef client fill:#e1f5fe,stroke:#01579b,stroke-width:2px,color:#111;
+    classDef server fill:#efebe9,stroke:#3e2723,stroke-width:2px,color:#111;
+    classDef db fill:#e8f5e9,stroke:#1b5e20,stroke-width:2px,color:#111;
+    classDef ml fill:#f3e5f5,stroke:#4a148c,stroke-width:2px,color:#111;
 
     subgraph Client ["Frontend Client (React + Vite)"]
         A[Interactive Dashboard & Charts]:::client
