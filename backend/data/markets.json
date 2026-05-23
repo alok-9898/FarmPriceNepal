@@ -1,0 +1,66 @@
+[
+  {
+    "market_id": "kalimati",
+    "name": "Kalimati Fruits & Vegetables Market",
+    "district": "Kathmandu",
+    "province": "Bagmati",
+    "latitude": 27.6933,
+    "longitude": 85.2862
+  },
+  {
+    "market_id": "asan",
+    "name": "Asan Bazaar",
+    "district": "Kathmandu",
+    "province": "Bagmati",
+    "latitude": 27.7079,
+    "longitude": 85.312
+  },
+  {
+    "market_id": "banepa",
+    "name": "Banepa Market",
+    "district": "Kavrepalanchok",
+    "province": "Bagmati",
+    "latitude": 27.6314,
+    "longitude": 85.5219
+  },
+  {
+    "market_id": "pokhara",
+    "name": "Pokhara Sabji Mandi",
+    "district": "Kaski",
+    "province": "Gandaki",
+    "latitude": 28.2096,
+    "longitude": 83.9856
+  },
+  {
+    "market_id": "birgunj",
+    "name": "Birgunj Market",
+    "district": "Parsa",
+    "province": "Madhesh",
+    "latitude": 27.0104,
+    "longitude": 84.8821
+  },
+  {
+    "market_id": "dhangadhi",
+    "name": "Dhangadhi Bazaar",
+    "district": "Kailali",
+    "province": "Sudurpashchim",
+    "latitude": 28.6942,
+    "longitude": 80.5936
+  },
+  {
+    "market_id": "butwal",
+    "name": "Butwal Market",
+    "district": "Rupandehi",
+    "province": "Lumbini",
+    "latitude": 27.7006,
+    "longitude": 83.4483
+  },
+  {
+    "market_id": "janakpur",
+    "name": "Janakpur Mandi",
+    "district": "Dhanusha",
+    "province": "Madhesh",
+    "latitude": 26.7288,
+    "longitude": 85.9263
+  }
+]

@@ -1,0 +1,39 @@
+# Logs and caches
+*.log
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+.ipynb_checkpoints/
+
+# Virtual environments
+backend/venv/
+venv/
+ENV/
+env/
+
+# Local configuration
+backend/.env
+.env
+.env.local
+
+# Node modules
+frontend/node_modules/
+node_modules/
+
+# Build directories
+frontend/dist/
+frontend/dist-ssr/
+dist/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# ML models
+backend/app/ml/models/*.pkl
+*.pkl
+
+# Editor settings
+.vscode/
+.idea/

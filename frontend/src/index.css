@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #166534;
+  --color-secondary: #10B981;
+  --color-accent: #FACC15;
+  --color-background: #FAFAFA;
+  --color-dark: #111827;
+  
+  --font-sans: "Inter", "Poppins", ui-sans-serif, system-ui;
+  
+  --radius-2xl: 16px;
+  
+  --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+@utility glass-card {
+  background-color: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(12px);
+  border-radius: var(--radius-2xl);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: var(--shadow-soft);
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+@utility btn-pill {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+@utility btn-primary {
+  @apply btn-pill;
+  background-color: var(--color-primary);
+  color: white;
+}
+
+@utility btn-outline {
+  @apply btn-pill;
+  border: 1px solid rgba(17, 24, 39, 0.1);
+  color: var(--color-dark);
+}
+
+@layer base {
+  body {
+    background-color: #f8fafc;
+    color: var(--color-dark);
+    font-family: var(--font-sans);
+    background-image: radial-gradient(#e2e8f0 0.5px, transparent 0.5px);
+    background-size: 24px 24px;
+    min-height: 100vh;
+  }
+}

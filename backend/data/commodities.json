@@ -1,0 +1,77 @@
+[
+  {
+    "commodity_id": "tomato",
+    "name": "Tomato (Golbheda)",
+    "category": "vegetable"
+  },
+  {
+    "commodity_id": "potato",
+    "name": "Potato (Aalu)",
+    "category": "vegetable"
+  },
+  {
+    "commodity_id": "onion",
+    "name": "Onion (Pyaaj)",
+    "category": "vegetable"
+  },
+  {
+    "commodity_id": "cauliflower",
+    "name": "Cauliflower (Kauli)",
+    "category": "vegetable"
+  },
+  {
+    "commodity_id": "cabbage",
+    "name": "Cabbage (Bandakopi)",
+    "category": "vegetable"
+  },
+  {
+    "commodity_id": "green_beans",
+    "name": "Green Beans (Simi)",
+    "category": "vegetable"
+  },
+  {
+    "commodity_id": "spinach",
+    "name": "Spinach (Palungo)",
+    "category": "vegetable"
+  },
+  {
+    "commodity_id": "apple",
+    "name": "Apple (Syau)",
+    "category": "fruit"
+  },
+  {
+    "commodity_id": "banana",
+    "name": "Banana (Kera)",
+    "category": "fruit"
+  },
+  {
+    "commodity_id": "orange",
+    "name": "Orange (Suntala)",
+    "category": "fruit"
+  },
+  {
+    "commodity_id": "rice",
+    "name": "Rice (Chamal)",
+    "category": "staple"
+  },
+  {
+    "commodity_id": "lentil",
+    "name": "Lentil (Dal)",
+    "category": "staple"
+  },
+  {
+    "commodity_id": "mustard_oil",
+    "name": "Mustard Oil (Tori ko Tel)",
+    "category": "staple"
+  },
+  {
+    "commodity_id": "chili",
+    "name": "Chili (Khursani)",
+    "category": "spice"
+  },
+  {
+    "commodity_id": "ginger",
+    "name": "Ginger (Aduwa)",
+    "category": "spice"
+  }
+]
