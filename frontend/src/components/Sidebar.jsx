@@ -40,17 +40,7 @@ const Sidebar = () => {
         { name: 'Trading Opportunities', path: '/forecast', icon: BarChart3 },
       ]
     },
-    cooperative: {
-      ne: [
-        { name: 'सदस्य व्यवस्थापन', path: '/settings', icon: Settings },
-        { name: 'सामूहिक भण्डारण', path: '/commodities', icon: ShoppingCart },
-      ],
-      en: [
-        { name: 'Member Management', path: '/settings', icon: Settings },
-        { name: 'Collective Inventory', path: '/commodities', icon: ShoppingCart },
-      ]
-    },
-    analyst: {
+    consumer: {
       ne: [
         { name: 'विस्तृत विश्लेषण', path: '/analytics', icon: BarChart3 },
         { name: 'डाटा रिपोर्ट', path: '/alerts', icon: Bell },

@@ -47,8 +47,7 @@ const Register = () => {
   const roles = [
     { id: 'farmer', label: 'Farmer', icon: '🌾' },
     { id: 'trader', label: 'Trader', icon: '🏪' },
-    { id: 'cooperative', label: 'Cooperative', icon: '🤝' },
-    { id: 'analyst', label: 'Analyst', icon: '📈' },
+    { id: 'consumer', label: 'Consumer', icon: '🛒' },
   ];
 
   return (
@@ -149,7 +148,7 @@ const Register = () => {
 
               <div className="space-y-4 pt-2">
                 <label className="text-sm font-bold text-dark/70 ml-1">Select your role</label>
-                <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+                <div className="grid grid-cols-3 gap-3">
                   {roles.map((role) => (
                     <button
                       key={role.id}

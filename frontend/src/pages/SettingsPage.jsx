@@ -58,7 +58,7 @@ const SettingsPage = () => {
               <span className="text-xs font-bold text-dark/40 uppercase tracking-widest">{t.currentPortal}:</span>
               <span className="text-sm font-black text-primary capitalize px-3 py-1 bg-emerald-50 rounded-lg">
                 {language === 'ne' 
-                  ? (user?.role === 'farmer' ? 'किसान (Farmer)' : user?.role === 'trader' ? 'व्यापारी (Trader)' : user?.role === 'cooperative' ? 'सहकारी (Cooperative)' : user?.role === 'analyst' ? 'विश्लेषक (Analyst)' : user?.role)
+                  ? (user?.role === 'farmer' ? 'किसान (Farmer)' : user?.role === 'trader' ? 'व्यापारी (Trader)' : user?.role === 'consumer' ? 'उपभोक्ता (Consumer)' : user?.role)
                   : (user?.role || 'Unknown')}
               </span>
             </div>

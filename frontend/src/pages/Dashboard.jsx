@@ -130,8 +130,7 @@ const Dashboard = () => {
   const headers = {
     farmer: language === 'ne' ? 'किसान ड्यासबोर्ड' : 'Farmer Dashboard',
     trader: language === 'ne' ? 'व्यापारी ड्यासबोर्ड' : 'Trader Dashboard',
-    cooperative: language === 'ne' ? 'सहकारी ड्यासबोर्ड' : 'Cooperative Dashboard',
-    analyst: language === 'ne' ? 'विश्लेषक ड्यासबोर्ड' : 'Analyst Dashboard',
+    consumer: language === 'ne' ? 'उपभोक्ता ड्यासबोर्ड' : 'Consumer Dashboard',
   };
 
   const roleSpecificStats = {
@@ -143,11 +142,7 @@ const Dashboard = () => {
       { title: language === 'ne' ? 'कुल माग' : 'Total Demand', value: language === 'ne' ? '२.५ टन' : '2.5 Ton', trend: "+१२%", icon: ShoppingCart, color: "text-emerald-600", bg: "bg-emerald-50" },
       { title: language === 'ne' ? 'नयाँ अर्डर' : 'New Orders', value: 8, trend: language === 'ne' ? 'प्रतीक्षामा' : 'Pending', icon: Bell, color: "text-blue-600", bg: "bg-blue-50" },
     ],
-    cooperative: [
-      { title: language === 'ne' ? 'जम्मा सदस्य' : 'Total Members', value: 120, trend: "+५", icon: MapPin, color: "text-blue-600", bg: "bg-blue-50" },
-      { title: language === 'ne' ? 'कुल भण्डारण' : 'Total Inventory', value: language === 'ne' ? '१५ टन' : '15 Ton', trend: language === 'ne' ? 'पूर्ण' : 'Full', icon: Leaf, color: "text-emerald-600", bg: "bg-emerald-50" },
-    ],
-    analyst: [
+    consumer: [
       { title: language === 'ne' ? 'कुल बजार' : 'Total Markets', value: summary.total_markets, trend: language === 'ne' ? 'सक्रिय' : 'Active', icon: MapPin, color: "text-blue-600", bg: "bg-blue-50" },
       { title: language === 'ne' ? 'सक्रिय मोडल' : 'Active Models', value: summary.active_models || 4, trend: "१००%", icon: Zap, color: "text-emerald-600", bg: "bg-emerald-50" },
     ]

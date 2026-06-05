@@ -222,7 +222,7 @@ const CommoditiesPage = () => {
         </div>
         
         <div className="flex flex-wrap gap-3 w-full md:w-auto">
-          {role === 'analyst' && (
+          {role === 'consumer' && (
             <Button onClick={downloadCSV} size="md" className="flex items-center gap-2 group">
               <Download className="w-4 h-4 transition-transform group-hover:-translate-y-0.5" />
               {downloading ? (language === 'ne' ? 'तथ्याङ्क डाउनलोड हुँदै...' : 'Downloading...') : (language === 'ne' ? 'डाटा डाउनलोड गर्नुहोस् (CSV)' : 'Export to CSV')}
@@ -736,10 +736,10 @@ const CommoditiesPage = () => {
         <div className="flex justify-between items-end">
           <div>
             <h3 className="text-xl font-bold text-dark">
-              {role === 'analyst' ? (language === 'ne' ? 'नेपाल कृषि बजार मूल्य सूचकांक' : 'Nepal Market Price Index') : (language === 'ne' ? 'आजको ताजा बजार मूल्य' : 'Current Market Price List')}
+              {role === 'consumer' ? (language === 'ne' ? 'नेपाल कृषि बजार मूल्य सूचकांक' : 'Nepal Market Price Index') : (language === 'ne' ? 'आजको ताजा बजार मूल्य' : 'Current Market Price List')}
             </h3>
             <p className="text-xs text-dark/40 font-semibold uppercase tracking-wider mt-1">
-              {role === 'analyst' 
+              {role === 'consumer' 
                 ? (language === 'ne' ? 'ऐतिहासिक उतारचढाव र मूल्य सूचकांक विश्लेषण' : 'Advanced commodity index trackers') 
                 : (language === 'ne' ? 'कालीमाटी बजार दरभाउ र उतारचढाव' : 'Kalimati daily vegetable & crop valuation indices')}
             </p>

@@ -10,7 +10,7 @@ async def seed_users():
     db = get_db()
     
     # Define roles to seed (matches the roles available on the Register page)
-    roles = ["farmer", "trader", "cooperative", "analyst"]
+    roles = ["farmer", "trader", "consumer"]
     password = "password123"
     hashed_password = get_password_hash(password)
     
